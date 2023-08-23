@@ -48,7 +48,25 @@ You can deploy in the `localhost` network following these steps:
 
    :::
 
-   ::::
+   3. The default newtwork is already set to Hardhat so you can directly deploy the contract using: 
+
+   ::::tabsgroup{options="TypeScript,JavaScript"}
+
+   :::tab{value="TypeScript"}
+
+   ```
+   npx hardhat run scripts/deploy.ts
+   ```
+
+   :::
+
+   :::tab{value="JavaScript"}
+
+   ```
+   npx hardhat run scripts/deploy.js
+   ```
+
+   :::
 
 As general rule, you can target any network from your Hardhat config using:
 
